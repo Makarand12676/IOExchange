@@ -1,4 +1,4 @@
-package com.template;
+package com.mak;
 
 import com.google.common.collect.ImmutableList;
 import net.corda.core.identity.CordaX500Name;

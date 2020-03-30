@@ -1,8 +1,8 @@
-package com.template.states;
+package com.mak.states;
 
 import com.google.common.collect.ImmutableList;
 import com.r3.corda.lib.tokens.contracts.states.EvolvableTokenType;
-import com.template.ExampleEvolvableTokenTypeContract;
+import com.mak.contracts.ExampleEvolvableTokenTypeContract;
 import net.corda.core.contracts.BelongsToContract;
 import net.corda.core.contracts.UniqueIdentifier;
 import net.corda.core.identity.Party;

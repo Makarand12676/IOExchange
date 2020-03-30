@@ -1,4 +1,4 @@
-package com.template;
+package com.mak;
 
 import net.corda.testing.node.MockServices;
 import org.junit.Test;

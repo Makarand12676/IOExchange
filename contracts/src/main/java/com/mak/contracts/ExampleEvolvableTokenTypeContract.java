@@ -1,4 +1,4 @@
-package com.template;
+package com.mak.contracts;
 
 import com.r3.corda.lib.tokens.contracts.EvolvableTokenContract;
 import net.corda.core.contracts.Contract;

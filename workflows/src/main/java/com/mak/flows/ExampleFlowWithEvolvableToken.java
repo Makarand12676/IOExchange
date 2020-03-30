@@ -1,4 +1,4 @@
-package com.template.flows;
+package com.mak.flows;
 
 import co.paralleluniverse.fibers.Suspendable;
 import com.google.common.collect.ImmutableList;
@@ -8,7 +8,7 @@ import com.r3.corda.lib.tokens.contracts.types.TokenPointer;
 import com.r3.corda.lib.tokens.contracts.utilities.TransactionUtilitiesKt;
 import com.r3.corda.lib.tokens.workflows.flows.rpc.CreateEvolvableTokens;
 import com.r3.corda.lib.tokens.workflows.flows.rpc.IssueTokens;
-import com.template.states.ExampleEvolvableTokenType;
+import com.mak.states.ExampleEvolvableTokenType;
 import net.corda.core.contracts.*;
 import net.corda.core.flows.FlowException;
 import net.corda.core.flows.FlowLogic;

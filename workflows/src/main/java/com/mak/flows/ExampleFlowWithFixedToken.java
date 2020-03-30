@@ -1,4 +1,4 @@
-package com.template.flows;
+package com.mak.flows;
 
 import co.paralleluniverse.fibers.Suspendable;
 import com.google.common.collect.ImmutableList;

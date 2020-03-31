@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 import static net.corda.core.contracts.ContractsDSL.requireThat;
 
 public class StockContract extends EvolvableTokenContract implements Contract {
-
+    public static final String ID = "com.mak.contracts.StockContract";
     @Override
     public void verify(@NotNull LedgerTransaction tx) throws IllegalArgumentException {
         StockState outputState = (StockState) tx.getOutput(0);

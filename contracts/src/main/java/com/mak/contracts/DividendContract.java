@@ -15,7 +15,7 @@ import static net.corda.core.contracts.ContractsDSL.requireSingleCommand;
 import static net.corda.core.contracts.ContractsDSL.requireThat;
 
 public class DividendContract implements Contract {
-    public static final String ID = "net.corda.examples.stockpaydividend.contracts.DividendContract";
+    public static final String ID = "com.mak.contracts.DividendContract";
 
     @Override
     public void verify(LedgerTransaction tx) throws IllegalArgumentException {
